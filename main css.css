@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #000;
+    padding-top: 16px;
+    color: #efd9ad;
+}
+
+header {
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+body {
+    background-color: #f9f6f6f8;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: rgb(213, 171, 107);
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(213, 171, 107);
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja {
+    background-color: rgb(213, 171, 107);
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.lista-roupas {
+    flex-wrap: wrap;
+}
+
+.lista-roupas li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   /* list-style: none;
+    margin-bottom: 24px; */
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 16px;
+   /* height: 300px;*/
+}
+
+.lista-roupas li .itemcentral {
+    margin: auto;
+}
+
+.lista-roupas li img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.lista-roupas li button {
+    margin-top: 8px;
+}
+
+.lista-roupas li h3 {
+    margin: 16px 0;
+}
+/*
+.itemcentral {
+    margin: 16px 0;
+}
+*/
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color:rgb(213, 171, 107);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px; 
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: rgb(213, 171, 107);
+    font-size: 14px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width:  100%; 
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360 px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
